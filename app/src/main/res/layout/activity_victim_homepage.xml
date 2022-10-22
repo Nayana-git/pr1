@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AccountList">
+
+    <TextView
+        android:id="@+id/tvFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:textColor="#040404"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/tvInstagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:textColor="#040404"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/tvTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:textColor="#040404"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/tvReddit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reddit"
+        android:textColor="#040404"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/tvBankOfAmerica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank Of America"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/tvAmazon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amazon"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/tvVariety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Variety"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/tvWalmart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Walmart"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="425dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
