@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etUsername" />
 
     <Button
-        android:id="@+id/btnSave"
+        android:id="@+id/btnSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="304dp"
@@ -65,7 +65,7 @@
         android:layout_marginBottom="176dp"
         android:text="Sign Up"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/btnSave" />
+        app:layout_constraintStart_toStartOf="@+id/btnSignup" />
 
     <TextView
         android:id="@+id/tvQuestion"
