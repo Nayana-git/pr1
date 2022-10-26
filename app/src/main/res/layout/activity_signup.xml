@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AccDetail">
+    tools:context=".SignupActivity">
 
     <TextView
         android:id="@+id/tvTitleSignup"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <Button
-        android:id="@+id/btnSignup"
+        android:id="@+id/btnCancelAcc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="84dp"
@@ -91,7 +91,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -100,7 +100,7 @@
         android:text="Cancel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnSignup" />
+        app:layout_constraintStart_toEndOf="@+id/btnCancelAcc" />
 
     <CheckBox
         android:id="@+id/cbVictim"
@@ -109,7 +109,7 @@
         android:layout_marginStart="70dp"
         android:layout_marginBottom="30dp"
         android:text="Victim"
-        app:layout_constraintBottom_toTopOf="@+id/btnSignup"
+        app:layout_constraintBottom_toTopOf="@+id/btnCancelAcc"
         app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
@@ -120,7 +120,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="30dp"
         android:text="Hacker"
-        app:layout_constraintBottom_toTopOf="@+id/btnSignUp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCancelAcc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cbVictim" />
 

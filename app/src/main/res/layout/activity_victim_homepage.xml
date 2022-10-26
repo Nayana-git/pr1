@@ -1,77 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".AccountList">
+    tools:context=".VictimHomepage">
 
-    <TextView
-        android:id="@+id/tvFacebook"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Facebook"
-        android:textColor="#040404"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="72dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        tools:ignore="ScrollViewSize">
 
-    <TextView
-        android:id="@+id/tvInstagram"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Instagram"
-        android:textColor="#040404"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="120dp" />
 
-    <TextView
-        android:id="@+id/tvTwitter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Twitter"
-        android:textColor="#040404"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="166dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
 
-    <TextView
-        android:id="@+id/tvReddit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Reddit"
-        android:textColor="#040404"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="216dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="10sp"
+                tools:ignore="HardcodedText">
 
-    <TextView
-        android:id="@+id/tvBankOfAmerica"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bank Of America"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="273dp" />
+            </TextView>
 
-    <TextView
-        android:id="@+id/tvAmazon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Amazon"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="316dp" />
+            <Button
+                android:id="@+id/btnFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Facebook"
+                android:textColor="#ffff"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
 
-    <TextView
-        android:id="@+id/tvVariety"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Variety"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="373dp" />
+            </Button>
 
-    <TextView
-        android:id="@+id/tvWalmart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Walmart"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="425dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <Button
+                android:id="@+id/btnInstagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Instagram"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Bank Of America"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Ebay"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Amazon"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Variety"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Twitter"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Reddit"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Chase"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Snapchat"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Walmart"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Paypal"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Gmail"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="MSN"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Uber"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Lyft"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="JC Penny"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Duck duck go"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Yahoo"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Target"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText">
+
+            </Button>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
