@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VictimTestActivity">
+
+    <TextView
+        android:id="@+id/tvGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Guess Your Password"
+        android:textColor="#151414"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:text="Username"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGuessPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Password"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvuser"
+        app:layout_constraintTop_toBottomOf="@+id/tvuser" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="116dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="180dp"
+        android:text="Facebook"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#0B0A0A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvShownUsername"
+        app:layout_constraintTop_toBottomOf="@+id/tvShownUsername" />
+
+    <TextView
+        android:id="@+id/tvShownUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:text="Nayana"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/tvuser"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="500dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

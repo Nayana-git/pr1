@@ -1,28 +1,37 @@
 package com.example.pr1
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
 class VictimHomepage : AppCompatActivity() {
+    lateinit var btnPwd: Button
+    lateinit var btnTest: Button
+    lateinit var btnStat: Button
 
-    lateinit var btnFacebook: Button
-    lateinit var btnInstagram: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_victim_homepage)
+        setContentView(R.layout.activity_victim_homepage2)
 
-        btnFacebook = findViewById(R.id.btnFacebook)
-        btnInstagram = findViewById(R.id.btnInstagram)
 
-        btnFacebook.setOnClickListener {
-            val intent = Intent(this, AccountDetail::class.java)
+        btnPwd = findViewById(R.id.btnPassword)
+        btnTest = findViewById(R.id.btnTakeTest)
+        btnStat = findViewById(R.id.btnStats)
+
+        btnPwd.setOnClickListener {
+            val intent = Intent(this, PasswordList::class.java)
             startActivity(intent)
         }
 
-        btnInstagram.setOnClickListener {
+        btnTest.setOnClickListener {
+            val intent = Intent(this, VictimTestActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnStat.setOnClickListener {
             val intent = Intent(this, VictimStats::class.java)
             startActivity(intent)
         }
