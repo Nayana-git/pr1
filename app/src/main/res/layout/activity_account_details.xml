@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".PasswordList">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="10sp"
+            tools:ignore="ScrollViewSize">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessParent">
+
+                <Button
+                    android:id="@+id/btnFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Facebook"
+                    android:textColor="#ffff"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btnInstagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Instagram"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Bank Of America"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Ebay"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Amazon"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Variety"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Twitter"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Reddit"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Chase"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Snapchat"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Walmart"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Paypal"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Gmail"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="MSN"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Uber"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Lyft"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="JC Penny"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Duck duck go"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Yahoo"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Target"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="250dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32sp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32sp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32sp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32sp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32sp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32sp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32sp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="xyz1234567"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText"/>
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:hint="guess password"
+                        android:textSize="20sp" />
+
+                    </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+

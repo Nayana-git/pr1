@@ -27,7 +27,8 @@
         android:textColor="#0E0C0C"
         android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="32dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/tvHackedNum"

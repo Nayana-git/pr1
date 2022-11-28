@@ -45,4 +45,13 @@
         android:text="My Stats"
         app:layout_constraintTop_toBottomOf="@+id/btnTakeTest"
         tools:layout_editor_absoluteX="166dp" />
+
+    <Button
+        android:id="@+id/btnHacker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Try as Hacker"
+        app:layout_constraintTop_toBottomOf="@+id/btnTakeTest"
+        tools:layout_editor_absoluteX="166dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

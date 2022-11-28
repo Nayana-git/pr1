@@ -10,8 +10,10 @@ class VictimHomepage : AppCompatActivity() {
     lateinit var btnPwd: Button
     lateinit var btnTest: Button
     lateinit var btnStat: Button
+    lateinit var btnHack: Button
 
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_victim_homepage2)
@@ -20,6 +22,7 @@ class VictimHomepage : AppCompatActivity() {
         btnPwd = findViewById(R.id.btnPassword)
         btnTest = findViewById(R.id.btnTakeTest)
         btnStat = findViewById(R.id.btnStats)
+        btnHack = findViewById(R.id.btnHacker)
 
         btnPwd.setOnClickListener {
             val intent = Intent(this, PasswordList::class.java)
@@ -33,6 +36,11 @@ class VictimHomepage : AppCompatActivity() {
 
         btnStat.setOnClickListener {
             val intent = Intent(this, VictimStats::class.java)
+            startActivity(intent)
+        }
+
+        btnHack.setOnClickListener {
+            val intent = Intent(this, VictimListActivity::class.java)
             startActivity(intent)
         }
     }
