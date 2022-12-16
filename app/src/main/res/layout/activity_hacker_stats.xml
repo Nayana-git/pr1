@@ -3,7 +3,65 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".HackerStats">
+    android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/hackerStatsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Standings"
+        android:textColor="#0B0A0A"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/successRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:text="Success Rate:"
+        android:textColor="#0E0C0C"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="32dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="204dp"
+        android:text="96%"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/successRate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hackerRankLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:text="Ranking:"
+        android:textColor="#100F0F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/successRate"
+        app:layout_constraintTop_toBottomOf="@+id/successRate" />
+
+    <TextView
+        android:id="@+id/hackerRankNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="92dp"
+        android:text="1st"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/hackerRankLabel"
+        app:layout_constraintTop_toTopOf="@id/number" />
 </androidx.constraintlayout.widget.ConstraintLayout>

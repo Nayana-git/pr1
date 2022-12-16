@@ -6,13 +6,20 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.ListView
 
 class VictimListActivity : AppCompatActivity() {
+    lateinit var btnStat: Button
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_victim_list)
+        btnStat = findViewById(R.id.Stat)
+        btnStat.setOnClickListener {
+            val intent = Intent(this, HackerStats::class.java)
+            startActivity(intent)
+        }
         val arrayAdapter: ArrayAdapter<*>
         val users = arrayOf(
             "victim1", "victim2", "victim3"
